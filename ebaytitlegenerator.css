@@ -1,0 +1,36 @@
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 72px;
+	font-weight: bold;
+	text-align: center;
+	margin: 0 auto;
+	padding: 50px;
+	color: #FFFFFF;
+}
+
+body {
+	text-align: center;
+	background: #000000;
+}
+
+#result {
+	font-family: 'Lobster', cursive;
+	font-size: 36px;
+	color: #FFFFFF;
+	padding: 30px;
+}
+
+#form {
+	padding: 30px;
+}
+
+input {
+  	border: 0;
+  	padding: 10px;
+  	font-size: 18px;
+}
+
+input[type="submit"] {
+  	background: red;
+  	color: white;
+}
