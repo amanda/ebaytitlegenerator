@@ -13,7 +13,17 @@ var generateTitle = function (someItem) {
   $('#result').html('<p>' + newItem + '</p>');
 };
 
+var action = function () {
+  if ($('#itemName').val().length > 0) {
+    $('#submitButton').prop('disabled', false);
+  } else {
+    $('#submitButton').prop('disabled', true);
+  }
+};
+
 $(document).ready(function () {
+
+  $('#itemName').on('keyup', action);
 
   $('form').submit(function (event) {
     var itemName = $('#itemName').val();
