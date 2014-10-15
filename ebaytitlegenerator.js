@@ -1,5 +1,7 @@
-var words = ['vintage', 'best', 'new', 'cheap', 'great value', 'selling fast', 'rare', 'beautiful', 'CLEARANCE', 'LOOK', 'free shipping'];
-var characters = ['!', '!!!', '!!!!!!!'];
+var words = ['vintage', 'best', 'new', 'cheap', 'great value', 
+                  'selling fast', 'rare', 'beautiful', 'CLEARANCE', 'LOOK', 'free shipping', 
+                  'excellent', 'nice', 'wow', 'authentic', 'amazing'];
+var characters = ['!', '!!!', '!!!!!!!', ' '];
 
 var choice = function (someList) {
   return someList[Math.floor(Math.random() * (someList.length - 1))];
